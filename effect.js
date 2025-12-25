@@ -8,13 +8,13 @@ $('document').ready(function(){
 			 vw = $(window).width()/2;
 			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 			if ($(window).width() < 600) {
-				$('#b11').animate({top:240, left: vw-150},500);
-				$('#b22').animate({top:240, left: vw-100},500);
-				$('#b33').animate({top:240, left: vw-50},500);
-				$('#b44').animate({top:240, left: vw},500);
-				$('#b55').animate({top:240, left: vw+50},500);
-				$('#b66').animate({top:240, left: vw+100},500);
-				$('#b77').animate({top:240, left: vw+150},500);
+				$('#b11').animate({top:240, left: vw-120},500);
+				$('#b22').animate({top:240, left: vw-60},500);
+				$('#b33').animate({top:240, left: vw},500);
+				$('#b44').animate({top:240, left: vw+60},500);
+				$('#b55').animate({top:240, left: vw+120},500);
+				$('#b66').animate({top:240, left: vw+180},500);
+				$('#b77').animate({top:240, left: vw+240},500);
 			} else {
 				$('#b11').animate({top:240, left: vw-350},500);
 				$('#b22').animate({top:240, left: vw-250},500);
@@ -161,13 +161,13 @@ $('document').ready(function(){
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
 		if ($(window).width() < 600) {
-			$('#b11').animate({top:240, left: vw-150},500);
-			$('#b22').animate({top:240, left: vw-100},500);
-			$('#b33').animate({top:240, left: vw-50},500);
-			$('#b44').animate({top:240, left: vw},500);
-			$('#b55').animate({top:240, left: vw+50},500);
-			$('#b66').animate({top:240, left: vw+100},500);
-			$('#b77').animate({top:240, left: vw+150},500);
+			$('#b11').animate({top:240, left: vw-120},500);
+			$('#b22').animate({top:240, left: vw-60},500);
+			$('#b33').animate({top:240, left: vw},500);
+			$('#b44').animate({top:240, left: vw+60},500);
+			$('#b55').animate({top:240, left: vw+120},500);
+			$('#b66').animate({top:240, left: vw+180},500);
+			$('#b77').animate({top:240, left: vw+240},500);
 		} else {
 			$('#b11').animate({top:240, left: vw-350},500);
 			$('#b22').animate({top:240, left: vw-250},500);
@@ -188,7 +188,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
-			$('body').css('padding-bottom', '80px');
+			$('body').css('padding-bottom', '120px');
 		});
 		
 		var i;
@@ -200,6 +200,7 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					$('.message').fadeOut('fast');
 					$('body').css('padding-bottom', '0');
 				});
 				

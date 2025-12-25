@@ -1310,3 +1310,14 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+@media (max-width: 600px) {
+    .balloons {
+        width: 60px;
+        height: 110px;
+        background-size: 60px 110px;
+    }
+    .balloons h2 {
+        font-size: 30px;
+    }
+}*/
