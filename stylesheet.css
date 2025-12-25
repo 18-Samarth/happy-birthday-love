@@ -1270,6 +1270,8 @@ audio {
 .message {
 	margin-top: 200px;
 	display: none;
+	overflow-y: auto;
+	max-height: 50vh;
 }
 .message p {
 	font-family: 'Signika', sans-serif;
