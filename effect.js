@@ -188,6 +188,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
+			$('body').css('padding-bottom', '80px');
 		});
 		
 		var i;
@@ -199,6 +200,7 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					$('body').css('padding-bottom', '0');
 				});
 				
 			}
