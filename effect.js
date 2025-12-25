@@ -8,13 +8,13 @@ $('document').ready(function(){
 			 vw = $(window).width()/2;
 			$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 			if ($(window).width() < 600) {
-				$('#b11').animate({top:240, left: vw-170},500);
-				$('#b22').animate({top:240, left: vw-110},500);
-				$('#b33').animate({top:240, left: vw-50},500);
-				$('#b44').animate({top:240, left: vw+10},500);
-				$('#b55').animate({top:240, left: vw+70},500);
-				$('#b66').animate({top:240, left: vw+130},500);
-				$('#b77').animate({top:240, left: vw+190},500);
+				$('#b11').animate({top:240, left: vw-200},500);
+				$('#b22').animate({top:240, left: vw-140},500);
+				$('#b33').animate({top:240, left: vw-80},500);
+				$('#b44').animate({top:240, left: vw-20},500);
+				$('#b55').animate({top:240, left: vw+40},500);
+				$('#b66').animate({top:240, left: vw+100},500);
+				$('#b77').animate({top:240, left: vw+160},500);
 			} else {
 				$('#b11').animate({top:240, left: vw-350},500);
 				$('#b22').animate({top:240, left: vw-250},500);
@@ -161,13 +161,13 @@ $('document').ready(function(){
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
 		if ($(window).width() < 600) {
-			$('#b11').animate({top:240, left: vw-170},500);
-			$('#b22').animate({top:240, left: vw-110},500);
-			$('#b33').animate({top:240, left: vw-50},500);
-			$('#b44').animate({top:240, left: vw+10},500);
-			$('#b55').animate({top:240, left: vw+70},500);
-			$('#b66').animate({top:240, left: vw+130},500);
-			$('#b77').animate({top:240, left: vw+190},500);
+			$('#b11').animate({top:240, left: vw-200},500);
+			$('#b22').animate({top:240, left: vw-140},500);
+			$('#b33').animate({top:240, left: vw-80},500);
+			$('#b44').animate({top:240, left: vw-20},500);
+			$('#b55').animate({top:240, left: vw+40},500);
+			$('#b66').animate({top:240, left: vw+100},500);
+			$('#b77').animate({top:240, left: vw+160},500);
 		} else {
 			$('#b11').animate({top:240, left: vw-350},500);
 			$('#b22').animate({top:240, left: vw-250},500);
